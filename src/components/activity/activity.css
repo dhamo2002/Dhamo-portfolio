@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.activity{
+    background-color: #001220;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.activity>h1{
+    font-family: 'Righteous', cursive;
+    color: #a7233a;
+    font-size: 300%;
+}
+
+.activity>h2{
+    color: white;
+    margin-bottom: 5%;
+    margin-top: -40px;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+
+.activity_division{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.curricular_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul>li{
+    text-align: left;
+}
+
+ul>li>span{
+    color: #a7233a;
+}
+
+h1{
+    color: #a7233a;
+}

@@ -1,0 +1,41 @@
+
+
+.skills{
+    background-color: #001220;
+    text-align: center;
+    color: white;
+    padding: 0 5%;
+}
+
+.skill_division{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-color: white;
+    text-align: left;
+}
+
+.skills>h1{
+    font-family: 'Righteous', cursive;
+    color: #a7233a;
+    font-size: 300%;
+}
+
+.skills>h2{
+    color: white;
+    margin-bottom: 5%;
+    margin-top: -40px;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+img{
+    margin-right: 10px;
+    max-width: 48px;
+    height: auto;
+    transition: transform .2s
+}
+
+img:hover{
+    transform: scale(1.5);
+}

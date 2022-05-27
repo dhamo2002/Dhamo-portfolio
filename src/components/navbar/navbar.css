@@ -1,0 +1,43 @@
+
+.top__bar {
+    background-color: #001220;
+    color: #a7233a;
+    display: flex;
+    align-items: center;
+    padding: 1% 0;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+.left__bar{ 
+    flex: 40%;
+    
+}
+
+.left__bar>h1{
+    text-align: center;
+}
+
+.left__bar>h1>span{
+    color: white;
+}
+
+
+.right__bar{
+    flex: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.right__bar>a>h4{
+    cursor: pointer;
+}
+
+.right__bar>a>h4:hover{
+    color: white;
+    transform: scale(1.0);
+}
+
+

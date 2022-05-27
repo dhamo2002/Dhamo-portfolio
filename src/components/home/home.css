@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.home{
+    background-color: #001220;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myimg{
+    padding-top: 5%;
+    max-width: 80%;
+    height: auto;
+}
+
+.myimg:hover{
+    transform: none;
+}
+
+
+.image{
+    flex: 50%;
+}
+.content{
+    flex: 50%;
+    font-size: xx-large;
+    margin-top: 10%;
+}
+
+.content>h4{
+    color: white;
+}
+
+.content>h1{
+    color: #a7233a;
+    font-family: 'Righteous', cursive;
+}
+
+.content>h1>span{
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.buttons{
+    margin-top: 7%;
+}
+
+.resume_button{
+    background-color: #a7233a;
+    color: white;
+    padding: 2%;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.resume_button:hover{
+    background-color: white;
+    color: #a7233a;
+    scale: 2px;
+}
+
+.contact_button{
+    background-color: #001220;
+    border-color: #a7233a;
+    color: white;
+    padding: 2%;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+.contact_button:hover{
+    background-color: white;
+    color: #a7233a;
+    scale: 2px;
+    border: none;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+
+@keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
