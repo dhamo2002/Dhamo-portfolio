@@ -25,7 +25,8 @@
   
   .contact__container {
     border: 1px solid white;
-    width: 50%;
+    border-radius: 10px;
+    width: 60%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -52,4 +53,12 @@
   
   .contact__icons > a > .MuiIconButton-root {
     color: white !important;
+  }
+
+  .contact__container > p > .MuiIconButton-root {
+    color: white !important;
+  }
+
+  .contact__container > p > .MuiIconButton-root:hover {
+    cursor: unset;
   }

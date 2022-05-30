@@ -1,5 +1,5 @@
 import { IconButton } from "@material-ui/core";
-import { GitHub, Instagram, LinkedIn } from "@material-ui/icons";
+import { GitHub, Instagram, LinkedIn, Email, Call } from "@material-ui/icons";
 import React from "react";
 import { Element } from "react-scroll";
 import "./Contact.css";
@@ -11,10 +11,10 @@ const Contact = () => {
       <h2>______</h2>
       <div className="contact__container">
         <p>
-          Email : <span>dhamodarvetri@gmail.com</span>
+        <IconButton><Email /></IconButton><span>dhamodarvetri@gmail.com</span>
         </p>
         <p>
-          Call : <span>8838009622</span>
+        <IconButton><Call /></IconButton><span>8838009622</span>
         </p>
     
         <div className="contact__icons">
